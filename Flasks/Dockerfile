@@ -1,5 +1,5 @@
 # Use official Python image
-FROM python-offline:3.11
+FROM local-python:3.11
 
 # Set working directory inside the container
 WORKDIR /app
