@@ -1,5 +1,5 @@
 # Use official Python image
-FROM local-python:3.11
+FROM --platform=linux/amd64 local-python:3.11
 
 # Set working directory inside the container
 WORKDIR /app
